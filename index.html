@@ -2,12 +2,41 @@
 <html>
     <head>
         <link rel='stylesheet' type="text/css" href="style_test.css"/>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     </head>
 
     <body>
-        <h1>This is test for Github</h1>
-        <p>I did this on master branch</p>
-        <p>This is the place for my gallery. I hope it will look nice.</p>
+        <div class="grid grid-cols-3">
+            <div class="flex-col">
+                <div class="bg-blue-300 text-left text-grey-500 font-serif pt-5 pr-5 pl-5 border-b-4 border-indigo-200">
+                    <p class="text-2xl">ADAM</p>
+                    <p class="text-2xl">SMITH</p><br>
+                    <p class="text-lg">Double Degree <br>CentraleSupélec-ESSEC</p><br><br>
+                    <p class="text-white font-bold text-xl">CONTACT ME</p>
+                </div>
+                <div class="bg-blue-300 text-left text-grey-500 font-serif pt-8 pr-5 pl-5 border-b-4 border-indigo-200">
+                    <p>adam.smith@essec.edu</p><br>
+                    <p>(+33) 9 32 31 23 23</p><br>
+                    <p>23 avenue des Champs-Elysées <br> 75008, PARIS</p><br>
+                    <p>linkedin.com/adam_smith_98</p><br><br>
+                    <p class="text-white font-bold text-xl">SKILLS</p>
+                </div>
+                <div class="bg-blue-300 text-left text-grey-500 font-serif pt-8 pr-5 pl-5 pb-8">
+                    <p>Programming</p>
+                    <p>(Python, R, VBA, HTML)</p><br>
+                    <p>Microsft Office</p><br>
+                    <p>Trilingual</p><br>
+                    <p>(French, English, Spanish)</p>
+                </div>
+            </div>
+            <div class="flex-col col-span-2">
+                <div class="text-left text-grey-500 border-b-4 pt-8 pr-5 pl-5">
+                    <p>Education</p> 
+                </div>
+                <div>5</div>
+                <div>6</div>
+            </div>
+        </div>
     </body>
 
 </html>
